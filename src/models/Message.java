@@ -34,8 +34,8 @@ public class Message {
     @Column(name ="created_at", nullable = false)
     private Timestamp created_at;
 
-    @Column(name ="update_at", nullable = false)
-    private Timestamp updates_at;
+    @Column(name ="updated_at", nullable = false)
+    private Timestamp updated_at;
 
     public Integer getId() {
         return id;
@@ -70,10 +70,10 @@ public class Message {
     }
 
     public Timestamp getUpdates_at() {
-        return updates_at;
+        return updated_at;
     }
 
     public void setUpdated_at(Timestamp updated_at) {
-        this.updates_at = updated_at;
+        this.updated_at = updated_at;
     }
 }
