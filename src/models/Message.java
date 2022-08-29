@@ -73,7 +73,7 @@ public class Message {
         return updates_at;
     }
 
-    public void setUpdates_at(Timestamp updates_at) {
-        this.updates_at = updates_at;
+    public void setUpdated_at(Timestamp updated_at) {
+        this.updates_at = updated_at;
     }
 }
