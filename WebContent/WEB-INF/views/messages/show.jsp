@@ -12,7 +12,7 @@
         <p>作成日時:<fmt:formatDate value="${message.created_at}" pattern="yyy-MM-dd HH:mm:ss" /></p>
         <p>更新日時:<fmt:formatDate value="${message.updated_at}" pattern="yyy-MM-dd HH:mm:ss" /></p>
 
-        <p><a href="${pageContect.rewuest.contextPath}/index">一覧に戻る</a></p>
-
+        <p><a href="${pageContect.request.contextPath}/index">一覧に戻る</a></p>
+        <p><a href="${pageContext.request.contextPath}/edit?id=${message.id}">このメッセージを編集する</a></p>
     </c:param>
 </c:import>
